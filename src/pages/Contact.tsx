@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Mail, MessageSquare, MapPin, Send, CheckCircle2 } from 'lucide-react'
+import { Mail, MessageSquare, MapPin, Send, CircleCheck as CheckCircle2 } from 'lucide-react'
 
 export default function Contact() {
   const [sent, setSent] = useState(false)

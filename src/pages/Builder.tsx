@@ -1,10 +1,7 @@
 import { useState } from 'react'
 import { useResume } from '../context/ResumeContext'
 import { type TemplateId } from '../types/resume'
-import {
-  User, Briefcase, GraduationCap, Wrench, FolderGit2, Layout, Eye,
-  Download, FileText, RotateCcw, Sparkles, ChevronLeft, ChevronRight, Check,
-} from 'lucide-react'
+import { User, Briefcase, GraduationCap, Wrench, FolderGit2, LayoutGrid as Layout, Eye, Download, FileText, RotateCcw, Sparkles, ChevronLeft, ChevronRight, Check } from 'lucide-react'
 import { PersonalStep, ExperienceStep, EducationStep, SkillsStep, ProjectsStep } from '../components/builder/FormSteps'
 import ResumePreview from '../components/ResumePreview'
 import { generatePdf } from '../lib/pdf'

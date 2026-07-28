@@ -1,9 +1,5 @@
 import { useState, useRef, useCallback } from 'react'
-import {
-  Upload, FileText, Loader2, AlertCircle, TrendingUp, Target, Zap,
-  Sparkles, Lightbulb, XCircle, CheckCircle2, KeyRound, AlertTriangle,
-  ArrowRight, RefreshCw, FileSearch,
-} from 'lucide-react'
+import { Upload, FileText, Loader as Loader2, CircleAlert as AlertCircle, TrendingUp, Target, Zap, Sparkles, Lightbulb, Circle as XCircle, CircleCheck as CheckCircle2, KeyRound, TriangleAlert as AlertTriangle, ArrowRight, RefreshCw, FileSearch } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { extractTextFromPdf } from '../lib/pdfExtract'
 import { analyzeText, type TextAnalysisResult } from '../lib/analyzeText'

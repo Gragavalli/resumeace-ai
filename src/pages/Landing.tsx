@@ -1,8 +1,5 @@
 import { Link } from 'react-router-dom'
-import {
-  ArrowRight, FileText, Sparkles, BarChart3, Download, Zap, ShieldCheck,
-  Moon, CheckCircle2, Star, TrendingUp, Layout, Target,
-} from 'lucide-react'
+import { ArrowRight, FileText, Sparkles, ChartBar as BarChart3, Download, Zap, ShieldCheck, Moon, CircleCheck as CheckCircle2, Star, TrendingUp, LayoutGrid as Layout, Target } from 'lucide-react'
 
 export default function Landing() {
   return (
